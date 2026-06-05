@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PuraFruit — Piura, Perú</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#" class="logo">
+    <img src="https://www.purafruit.com/static/img/logo.png" alt="PuraFruit">
+  </a>
+  <ul class="nav-links">
+    <li><a href="#products">Productos</a></li>
+    <li><a href="#">Innovación</a></li>
+    <li><a href="#sustain">Sostenibilidad</a></li>
+    <li><a href="#intro">Nosotros</a></li>
+    <li><a href="#">Noticias</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="lang-btn">ES / EN</button>
+    <a href="#cta" class="nav-contact">Contacto</a>
+  </div>
+  <div class="hamburger" onclick="this.classList.toggle('open')">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-veil"></div>
+  <div class="hero-body">
+    <div class="hero-tag">Carretera Sullana · Piura, Perú</div>
+    <h1 class="hero-title">
+      Del campo<br>a <em>todo el mundo</em>
+    </h1>
+    <p class="hero-sub">
+      Producimos y exportamos uvas frescas de primera calidad desde los campos de Piura — con tecnología, cuidado y mucho trabajo.
+    </p>
+    <div class="hero-btns">
+      <a href="#products" class="btn-fill">Ver Productos</a>
+      <a href="#intro" class="btn-outline">Conocernos</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>Bajar</span>
+    <svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+  </div>
+</section>
+
+<!-- TICKER STRIP -->
+<div class="strip">
+  <div class="strip-inner" aria-hidden="true">
+    <span class="strip-item"><strong>+2.400</strong> Hectáreas</span>
+    <span class="strip-dot">·</span>
+    <span class="strip-item"><strong>+18</strong> Países</span>
+    <span class="strip-dot">·</span>
+    <span class="strip-item"><strong>+200</strong> Ton/Año</span>
+    <span class="strip-dot">·</span>
+    <span class="strip-item">Doble Cosecha</span>
+    <span class="strip-dot">·</span>
+    <span class="strip-item">Calidad Premium</span>
+    <span class="strip-dot">·</span>
+    <span class="strip-item">Exportación Global</span>
+    <span class="strip-dot">·</span>
+    <span class="strip-item"><strong>33+</strong> Años</span>
+    <span class="strip-dot">·</span>
+    <!-- duplicate -->
+    <span class="strip-item"><strong>+2.400</strong> Hectáreas</span>
+    <span class="strip-dot">·</span>
+    <span class="strip-item"><strong>+18</strong> Países</span>
+    <span class="strip-dot">·</span>
+    <span class="strip-item"><strong>+200</strong> Ton/Año</span>
+    <span class="strip-dot">·</span>
+    <span class="strip-item">Doble Cosecha</span>
+    <span class="strip-dot">·</span>
+    <span class="strip-item">Calidad Premium</span>
+    <span class="strip-dot">·</span>
+    <span class="strip-item">Exportación Global</span>
+    <span class="strip-dot">·</span>
+    <span class="strip-item"><strong>33+</strong> Años</span>
+    <span class="strip-dot">·</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="intro">
+  <div class="intro-left sr">
+    <p class="eyebrow">Quiénes somos</p>
+    <h2>Cultivamos con<br>responsabilidad<br>desde Piura</h2>
+    <p>
+      PuraFruit nació con una misión simple: llevar la mejor fruta peruana al mundo. Estamos en la Carretera Sullana, aprovechando el clima único de Piura para producir uvas de sabor excepcional.
+    </p>
+    <p>
+      Más de 33 años cultivando nos han enseñado que la calidad no se improvisa — viene del suelo, del agua, de la gente y de hacer las cosas bien cada vez.
+    </p>
+    <a href="#" class="link-arrow">Nuestra historia →</a>
+  </div>
+  <div class="intro-right sr" style="transition-delay:.18s">
+    <img
+      class="intro-img-main"
+      src="https://www.purafruit.com/media/fields/gallery/LH5A9964.JPG"
+      alt="Campo PuraFruit Piura"
+      loading="lazy"
+    >
+    <div class="intro-badge">
+      <div class="n">33+</div>
+      <div class="l">Años en el campo</div>
+    </div>
+  </div>
+</section>
+
+<!-- NUMBERS -->
+<div id="numbers">
+  <div class="num-cell sr">
+    <div class="num-val" data-target="2400" data-suffix="">2.400</div>
+    <div class="num-lbl">Hectáreas totales</div>
+  </div>
+  <div class="num-cell sr" style="transition-delay:.08s">
+    <div class="num-val" data-target="900" data-suffix="+">900+</div>
+    <div class="num-lbl">Hectáreas plantadas</div>
+  </div>
+  <div class="num-cell sr" style="transition-delay:.16s">
+    <div class="num-val" data-target="200" data-suffix="+">200+</div>
+    <div class="num-lbl">Toneladas al año</div>
+  </div>
+  <div class="num-cell sr" style="transition-delay:.24s">
+    <div class="num-val" data-target="18" data-suffix="+">18+</div>
+    <div class="num-lbl">Países de exportación</div>
+  </div>
+  <div class="num-cell sr" style="transition-delay:.32s">
+    <div class="num-val" data-target="33" data-suffix="+">33+</div>
+    <div class="num-lbl">Años de experiencia</div>
+  </div>
+</div>
+
+<!-- PRODUCTS -->
+<section id="products">
+  <div class="prod-header sr">
+    <div>
+      <p class="eyebrow">Variedades</p>
+      <h2>Nuestras uvas</h2>
+    </div>
+    <a href="https://www.purafruit.com/productos/" class="btn-fill">Ver todo</a>
+  </div>
+
+  <div class="prod-grid">
+    <div class="prod-card sr">
+      <div class="prod-img-wrap">
+        <img src="https://www.purafruit.com/media/products/autumn_crisp_sin_fondo.png" alt="Autum Crisp" loading="lazy">
+      </div>
+      <div class="prod-info">
+        <p class="prod-tag">Uva verde</p>
+        <h3 class="prod-name">Autum Crisp</h3>
+        <p class="prod-desc">Rica en resveratrol y antioxidantes. Favorece el corazón y el sistema inmune con un sabor dulce y equilibrado.</p>
+        <a href="https://www.purafruit.com/producto/15/" class="prod-link">Ver ficha →</a>
+      </div>
+    </div>
+
+    <div class="prod-card sr" style="transition-delay:.1s">
+      <div class="prod-img-wrap">
+        <img src="https://www.purafruit.com/media/products/allison_retocada.png" alt="Roja Alison" loading="lazy">
+      </div>
+      <div class="prod-info">
+        <p class="prod-tag">Uva roja</p>
+        <h3 class="prod-name">Roja Alison</h3>
+        <p class="prod-desc">Color rojo intenso con alto contenido de antioxidantes cardiovasculares. Ideal para mercados premium.</p>
+        <a href="https://www.purafruit.com/producto/20/" class="prod-link">Ver ficha →</a>
+      </div>
+    </div>
+
+    <div class="prod-card sr" style="transition-delay:.2s">
+      <div class="prod-img-wrap">
+        <img src="https://www.purafruit.com/media/products/Sugar_crisp_sin_fondo.png" alt="Sugar Crisp" loading="lazy">
+      </div>
+      <div class="prod-info">
+        <p class="prod-tag">Uva verde</p>
+        <h3 class="prod-name">Sugar Crisp</h3>
+        <p class="prod-desc">Textura crujiente y dulzura natural. Mejora la digestión y refuerza las defensas del organismo.</p>
+        <a href="https://www.purafruit.com/producto/17/" class="prod-link">Ver ficha →</a>
+      </div>
+    </div>
+
+    <div class="prod-card sr" style="transition-delay:.08s">
+      <div class="prod-img-wrap">
+        <img src="https://www.purafruit.com/media/products/Sweet_globe_editada_DZnViJi.png" alt="Sweet Globe" loading="lazy">
+      </div>
+      <div class="prod-info">
+        <p class="prod-tag">Uva verde</p>
+        <h3 class="prod-name">Sweet Globe</h3>
+        <p class="prod-desc">Fruta grande, redonda y jugosa. Una de las variedades más solicitadas por importadores internacionales.</p>
+        <a href="https://www.purafruit.com/producto/16/" class="prod-link">Ver ficha →</a>
+      </div>
+    </div>
+
+    <div class="prod-card sr" style="transition-delay:.18s">
+      <div class="prod-img-wrap">
+        <img src="https://www.purafruit.com/media/products/scarlota.png" alt="Scarlota" loading="lazy">
+      </div>
+      <div class="prod-info">
+        <p class="prod-tag">Uva roja</p>
+        <h3 class="prod-name">Scarlota</h3>
+        <p class="prod-desc">Sin semillas, color rojo vivo, sabor dulce. Larga vida post-cosecha y muy buena presentación.</p>
+        <a href="https://www.purafruit.com/producto/18/" class="prod-link">Ver ficha →</a>
+      </div>
+    </div>
+
+    <div class="prod-card sr" style="transition-delay:.28s">
+      <div class="prod-img-wrap">
+        <img src="https://www.purafruit.com/media/products/sweet_favors_sin_fondo.png" alt="Sweet Favors" loading="lazy">
+      </div>
+      <div class="prod-info">
+        <p class="prod-tag">Variedad premium</p>
+        <h3 class="prod-name">Sweet Favors</h3>
+        <p class="prod-desc">Variedad de categoría superior, cultivada con estándares de exportación a los mercados más exigentes del mundo.</p>
+        <a href="https://www.purafruit.com/producto/22/" class="prod-link">Ver ficha →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FIELDS -->
+<section id="fields">
+  <div class="fields-wrap">
+    <div class="fields-text sr">
+      <p class="eyebrow">Nuestros campos</p>
+      <h2>Piura,<br>tierra de cosecha</h2>
+      <p>
+        Más de 2.400 hectáreas en la Carretera Sullana, donde el sol y el suelo de Piura nos dan condiciones únicas para producir dos cosechas al año. Cada campo está monitoreado con tecnología de precisión.
+      </p>
+      <div class="fields-btns">
+        <a href="https://maps.app.goo.gl/7stsc6scDnJE9EgD7" target="_blank" class="btn-fill">Ver en mapa</a>
+        <a href="#" class="btn-outline">Ver galería</a>
+      </div>
+    </div>
+    <div class="fields-pics sr" style="transition-delay:.2s">
+      <img src="https://www.purafruit.com/media/fields/gallery/Copia_de_DJI_0234.JPG" alt="Vista aérea campos" loading="lazy">
+      <img src="https://www.purafruit.com/media/fields/gallery/LH5A9964.JPG" alt="Campo detalle" loading="lazy">
+      <img src="https://www.purafruit.com/media/fields/gallery/campo_4_w2Ho8AP.jpg" alt="Hectáreas PuraFruit" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- SUSTAINABILITY -->
+<section id="sustain">
+  <div class="sustain-pics sr">
+    <img src="https://www.purafruit.com/media/commitment/DJI_20251112092346_0184_D.JPG" alt="Sostenibilidad" loading="lazy">
+    <img src="https://www.purafruit.com/media/commitment/Ceba.jpg" alt="Equipo" loading="lazy">
+    <img src="https://www.purafruit.com/media/commitment/00_VINCI-ICONOGRAPHIE_1280x680-GettyImages-1124686113.jpg" alt="Compromiso" loading="lazy">
+  </div>
+  <div class="sustain-text sr" style="transition-delay:.18s">
+    <p class="eyebrow">Sostenibilidad</p>
+    <h2>Cuidamos la<br>tierra que<br>nos da todo</h2>
+    <p>
+      No producimos solo frutas — producimos con responsabilidad. Eso significa cuidar el agua, el suelo, el aire y a las personas que trabajan con nosotros cada día.
+    </p>
+    <ul class="sustain-list">
+      <li>Riego tecnificado para reducir el consumo de agua</li>
+      <li>Certificaciones internacionales de buenas prácticas agrícolas</li>
+      <li>Programas de bienestar para trabajadores y familias</li>
+      <li>Gestión responsable de residuos y huella de carbono</li>
+      <li>Conservación de la biodiversidad en zonas de producción</li>
+    </ul>
+    <a href="#" class="btn-fill">Informe de sostenibilidad</a>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta">
+  <p class="cta-eyebrow">¿Hablamos?</p>
+  <h2 class="sr">¿Quieres importar<br><em>nuestras uvas?</em></h2>
+  <p class="sr" style="transition-delay:.12s">
+    Trabajamos con importadores, distribuidores y cadenas de supermercados en más de 18 países. Cuéntanos qué necesitas.
+  </p>
+  <div class="cta-btns sr" style="transition-delay:.22s">
+    <a href="https://www.purafruit.com/contacto/" class="btn-fill">Escribirnos</a>
+    <a href="mailto:comunicaciones@purafruit.com" class="cta-email">
+      <svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+      comunicaciones@purafruit.com
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <img src="https://www.purafruit.com/static/img/logo.png" alt="PuraFruit">
+      <p>Productores y exportadores de uvas frescas desde Piura, Perú. Carretera Sullana.</p>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/PuraFruitCompany" target="_blank" aria-label="Facebook">fb</a>
+        <a href="https://www.instagram.com/pura_fruit/" target="_blank" aria-label="Instagram">ig</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Empresa</h4>
+      <ul>
+        <li><a href="https://www.purafruit.com/quienes-somos/">Nosotros</a></li>
+        <li><a href="https://www.purafruit.com/productos/">Productos</a></li>
+        <li><a href="https://www.purafruit.com/innovacion/">Innovación</a></li>
+        <li><a href="https://www.purafruit.com/sostenibilidad/">Sostenibilidad</a></li>
+        <li><a href="https://www.purafruit.com/noticias/">Noticias</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="https://www.purafruit.com/terminos/">Términos</a></li>
+        <li><a href="https://www.purafruit.com/privacidad/">Privacidad</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <ul>
+        <li><a href="mailto:comunicaciones@purafruit.com">comunicaciones@purafruit.com</a></li>
+        <li><a href="https://www.purafruit.com/contacto/">Formulario</a></li>
+        <li><a href="https://maps.app.goo.gl/7stsc6scDnJE9EgD7" target="_blank">Carretera Sullana, Piura</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 PuraFruit Company · Todos los derechos reservados</p>
+    <p>Piura, Perú</p>
+  </div>
+</footer>
+
+
+</body>
+</html>
