@@ -71,7 +71,6 @@ nav.small { height: 56px; }
 }
 .hero-bg {
   position: absolute; inset: 0;
-  background-image: url('https://www.purafruit.com/media/fields/gallery/banner-home.jpg');
   background-size: cover;
   background-position: center 30%;
   transform: scale(1.04);
